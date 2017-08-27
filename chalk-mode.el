@@ -85,8 +85,7 @@
     "except"
     "as"
     "finally")                                           ;; keywords
-  '(("=" . 'font-lock-builtin-face)                      ;; operators
-    ("\\[.*\\]" . font-lock-string-face)                 ;; strings
+  '(
     )
   '("\\.ck$")                                            ;; files for which to activate this mode
   nil                                                    ;; other functions to call
